@@ -6,7 +6,7 @@ Note you only have access to the command line, not the full desktop environment.
 
 You can enable or disable the SSH server on your Raspberry Pi (it is enabled by default). This is done using [raspi-config](../../configuration/raspi-config.md):
 
-Enter `sudo raspi-config` in the terminal, then navigate to `ssh`, hit `Enter` and select `Enable or disable ssh server`.
+Enter `sudo raspi-config` in the terminal, then navigate to `8 Advanced Options` then hit `Enter`, then to `ssh`, hit `Enter` and select `Enable or disable ssh server`.
 
 SSH is built into Linux distributions and Mac OS, and a third-party SSH client is available for Windows. See the following guides for using SSH depending on the operating system used by the computer you are connecting from:
 
